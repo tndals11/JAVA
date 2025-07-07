@@ -86,7 +86,6 @@ public class A_Constructor {
         Example1 example1 = new Example1(); // 빈 생성자 호출 전달할 매개변수가 없다
         Example2 example2 = new Example2(50);
 
-
         // == Car 인스턴스 생성 == //
         Car car1 = new Car("black", "auto", 4);
 //        car1.color = "black";
@@ -94,9 +93,7 @@ public class A_Constructor {
 //        car1.door = 4;
 
         System.out.println(car1.color + car1.gearType + car1.door);
-
         Car car2 = new Car("white", "manual", 2);
-
         Car car3 = new Car("red");
         System.out.println(car3.color + car3.gearType + car3.door);
 
