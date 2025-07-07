@@ -67,14 +67,18 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.A_Constructor.executor": "Run",
     "애플리케이션.A_Method.executor": "Run",
+    "애플리케이션.B_Inheritance.executor": "Run",
     "애플리케이션.B_Method.executor": "Run",
+    "애플리케이션.C_Inheritance.executor": "Run",
     "애플리케이션.C_Method.executor": "Run",
     "애플리케이션.C_Object.executor": "Run",
     "애플리케이션.D_Method.executor": "Run",
     "애플리케이션.D_Object.executor": "Run",
+    "애플리케이션.D_Overriding.executor": "Run",
     "애플리케이션.E_Practice.executor": "Run",
     "애플리케이션.F_Overloading.executor": "Run",
-    "애플리케이션.G_Overloading.executor": "Run"
+    "애플리케이션.G_Overloading.executor": "Run",
+    "애플리케이션.StudentManagementApp.executor": "Run"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -93,11 +97,26 @@
       <option name="presentableId" value="Default" />
       <updated>1751594392013</updated>
       <workItem from="1751594393161" duration="4691000" />
-      <workItem from="1751846482783" duration="12842000" />
+      <workItem from="1751846482783" duration="25241000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter06/C_Inheritance.java</url>
+          <line>23</line>
+          <properties class="org.example.chapter06.Mammal" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
