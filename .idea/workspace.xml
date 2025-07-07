@@ -43,9 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2zOFp4s2AbHzHeZ9piLZSWlIrUb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,18 +55,26 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.A_Constructor.executor": "Run",
+    "애플리케이션.A_Method.executor": "Run",
+    "애플리케이션.B_Method.executor": "Run",
+    "애플리케이션.C_Method.executor": "Run",
     "애플리케이션.C_Object.executor": "Run",
-    "애플리케이션.D_Object.executor": "Run"
+    "애플리케이션.D_Method.executor": "Run",
+    "애플리케이션.D_Object.executor": "Run",
+    "애플리케이션.E_Practice.executor": "Run",
+    "애플리케이션.F_Overloading.executor": "Run",
+    "애플리케이션.G_Overloading.executor": "Run"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -85,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751594392013</updated>
       <workItem from="1751594393161" duration="4691000" />
+      <workItem from="1751846482783" duration="12842000" />
     </task>
     <servers />
   </component>
