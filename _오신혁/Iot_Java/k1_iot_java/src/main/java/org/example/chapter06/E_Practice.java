@@ -49,7 +49,7 @@ public class E_Practice {
     public static void main(String[] args) {
         M m = new M("초코2", 50);
         m.displayM();
-        C c = new C("초코", 50); // super.age를 20의 값으로 덮어쓰기해서
+        C c = new C("나비", 20); // super.age를 20의 값으로 덮어쓰기해서
         c.displayCat();
 
     }

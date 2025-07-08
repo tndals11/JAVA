@@ -53,7 +53,6 @@ class DogClass extends AnimalClass {
 
 class CatClass extends AnimalClass {
     // 오버라이딩 단축키 ctrl + o
-
     @Override
     void sound() {
         System.out.println("고양이가 야옹하고 웁니다.");
