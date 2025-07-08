@@ -14,7 +14,7 @@ class Student{
     String major; // 전공
     double gpa; // 평균학점
     
-    // 값을 입력
+    // INSERT
     Student(int studentId, String name, int age, String major, double gpa) {
         this.studentId = studentId;
         this.name = name;
@@ -24,6 +24,7 @@ class Student{
     }
     
     // === 메서드 === //
+    // SELECT
     void printStudentInfo() { // 출력
         System.out.println("Id : " + studentId
                 + "name : " + name
@@ -32,6 +33,7 @@ class Student{
                 + "gpa : " + gpa);
     }
 
+    // UPDATE
     void updateGpa(double newGpa) { // 수정
         this.gpa = newGpa;
     }
@@ -57,7 +59,6 @@ class Student{
 // : 메인 클래스(실행)
 // : 학생 등록, 조회, 수정기능 담당
 public class StudentManagementApp {
-    
     // cf) Java 클래스명은 파일명과 동일 (대소문자까지)
     //      : 하나의 파일에서 public 단위의 클래스는 한 개만 지정 가능
     //      >>  public class 클래스명은 파일명과 일치!
@@ -92,7 +93,6 @@ public class StudentManagementApp {
                 student.printStudentInfo();
                 return; // 메서드 종료
             }
-
         }
         System.out.println(studentId + "해당 ID의 학생을 찾을 수 없습니다.");
     }
@@ -113,25 +113,26 @@ public class StudentManagementApp {
     // >> public static void main(String[] args) 형식이어야 만 실행 가능
     // >> JVM은 main 메서드가 없을 경우 해당 파일을 실행x
     public static void main(String[] args) {
+        // 생성자 생성
         Student student1 = new Student();
         Student student2 = new Student();
         Student student3 = new Student();
         Student student4 = new Student();
         
-        // 배열에 학생 추가
+        // 배열에 학생 추가 (INSERT)
         addStudent(1, "김보민", 20, "IoT", 3.8);
         addStudent(2, "박진영", 21, "IoT", 3.9);
         addStudent(3, "오신혁", 22, "IoT", 3.7);
         addStudent(4, "김세훈", 23, "IoT", 3.5);
 
-        // 전체조회
+        // 전체조회(SELECT)
         printAllStudents();
 
-        // 학생조회
+        // 학생조회(SELECT = "ID")
         findStudentById(1);
         findStudentById(3);
         
-        // 학생 평점 업데이트
+        // 학생 평점 업데이트 (UPDATE)
         updateStudentGpa(1, 4.1);
         updateStudentGpa(4, 4.5);
         
