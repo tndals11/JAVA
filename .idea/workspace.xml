@@ -68,6 +68,7 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.A_Abstract.executor": "Run",
     "애플리케이션.A_Constructor.executor": "Run",
     "애플리케이션.A_Method.executor": "Run",
     "애플리케이션.A_Modifier.executor": "Run",
@@ -82,22 +83,27 @@
     "애플리케이션.D_Method.executor": "Run",
     "애플리케이션.D_Object.executor": "Run",
     "애플리케이션.D_Overriding.executor": "Run",
+    "애플리케이션.D_Practice2.executor": "Run",
     "애플리케이션.E_OOP_Practice.executor": "Run",
     "애플리케이션.E_Practice.executor": "Run",
     "애플리케이션.F_Overloading.executor": "Run",
+    "애플리케이션.G_Class_Type.executor": "Run",
     "애플리케이션.G_Overloading.executor": "Run",
+    "애플리케이션.H_Polymorphism.executor": "Run",
+    "애플리케이션.MainApp.executor": "Run",
     "애플리케이션.OtherClass.executor": "Run",
     "애플리케이션.ProtectedClass.executor": "Run",
-    "애플리케이션.StudentManagementApp.executor": "Run"
+    "애플리케이션.StudentManagementApp.executor": "Run",
+    "애플리케이션.org.example.chapter07.orderApp.MainApp.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.E_OOP_Practice">
-    <configuration name="A_Modifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter07.A_Modifier" />
+  <component name="RunManager" selected="애플리케이션.A_Abstract">
+    <configuration name="A_Abstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter08.A_Abstract" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter07.*" />
+          <option name="PATTERN" value="org.example.chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,34 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter07.B_Encapsulation" />
-      <module name="org.example.k1_iot_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chapter07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter07.C_Practice" />
-      <module name="org.example.k1_iot_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chapter07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D_Final" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter07.D_Final" />
+    <configuration name="D_Practice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter07.D_Practice2" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
@@ -157,13 +137,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter07.animalApp.MainApp" />
+      <module name="org.example.k1_iot_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter07.animalApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.chapter07.orderApp.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter07.orderApp.MainApp" />
+      <module name="org.example.k1_iot_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter07.orderApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.A_Abstract" />
+        <item itemvalue="애플리케이션.org.example.chapter07.orderApp.MainApp" />
+        <item itemvalue="애플리케이션.MainApp" />
+        <item itemvalue="애플리케이션.D_Practice2" />
         <item itemvalue="애플리케이션.E_OOP_Practice" />
-        <item itemvalue="애플리케이션.D_Final" />
-        <item itemvalue="애플리케이션.C_Practice" />
-        <item itemvalue="애플리케이션.B_Encapsulation" />
-        <item itemvalue="애플리케이션.A_Modifier" />
       </list>
     </recent_temporary>
   </component>
