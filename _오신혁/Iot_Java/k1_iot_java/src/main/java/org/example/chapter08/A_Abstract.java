@@ -82,6 +82,7 @@ class Dog extends Animal {
     void makeSound() {
         System.out.println("멍멍");
     }
+
     // 일반 메서드는 선택적 재정의
     @Override
     void eat() {
@@ -94,7 +95,6 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
-
     @Override
     void makeSound() {
         System.out.println("야옹!");
@@ -122,6 +122,6 @@ public class A_Abstract {
         Animal animalDog = new Dog();
         animalDog.makeSound();
         animalDog.eat(); // 강아지는 개껌을 먹습니다 -> 오버라이딩된 결과가 출력
-        // animalDog.bark(); 
+        // animalDog.bark(); -> 자식 클래스에 있는 메서드는 x
     }
 }
