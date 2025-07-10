@@ -12,7 +12,7 @@ class Animal {
     // 필드
     String name;
 
-    void aniMal (String name) {
+   Animal (String name) {
         this.name = name;
     }
 
@@ -22,47 +22,40 @@ class Animal {
 
 class Dog extends Animal {
 
-    @Override
-    void aniMal(String name) {
-        super.aniMal(name);
+    Dog(String name) {
+        super(name);
     }
 
     // Animal을 상속해 값을 재정의
     @Override
     void makeSound() {
-        System.out.println("멍멍");
+        System.out.println(name + "멍멍");
     }
 }
 
 class Cat extends Animal {
 
-    @Override
-    void aniMal(String name) {
-        System.out.println(name);
+    Cat(String name) {
+        super(name);
     }
 
     // Animal을 상속해 값을 재정의
     @Override
     void makeSound() {
-        System.out.println("야옹");
+        System.out.println(name + "야옹");;
     }
 }
 
 public class Q1 {
     public static void main(String[] args) {
         // 인스턴스화
-        Animal dog = new Dog();
-        Animal cat = new Cat();
+        Animal[] animals = {new Dog("강아지"),
+                new Cat("고양이")};
 
-        // Animal[] 배열을 생성
-        // 배열에 값을 입력
-        Animal[] animals = {dog, cat};
-        
+
         // 반복문
         for (Animal animal : animals) {
-            animal.aniMal("강아지");
             animal.makeSound();
-            animal.aniMal("고양이");
         }
 
     }
