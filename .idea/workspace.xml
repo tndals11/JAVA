@@ -5,6 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f876f0-5516-433d-be07-76f2fad8baaa" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/InventorySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/LibraryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/Manageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/entity/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/entity/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/repository/InMemoryItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/service/InventoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +110,7 @@
     "애플리케이션.G_Class_Type.executor": "Run",
     "애플리케이션.G_Overloading.executor": "Run",
     "애플리케이션.H_Polymorphism.executor": "Run",
+    "애플리케이션.InventorySystem.executor": "Run",
     "애플리케이션.JavaLang.executor": "Run",
     "애플리케이션.JavaTime.executor": "Run",
     "애플리케이션.JavaUtil.executor": "Run",
@@ -113,20 +127,7 @@
     "애플리케이션.org.example.chapter07.orderApp.MainApp.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.E_Map">
-    <configuration name="B_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter10.B_List" />
-      <module name="org.example.k1_iot_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chapter10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="C_ListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chapter10.C_ListPractice" />
       <module name="org.example.k1_iot_java.main" />
@@ -166,12 +167,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chaprer09_practice.Main" />
+    <configuration name="InventorySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter10.practice01.InventorySystem" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chaprer09_practice.*" />
+          <option name="PATTERN" value="org.example.chapter10.practice01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter10.practice02.Main" />
+      <module name="org.example.k1_iot_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter10.practice02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.InventorySystem" />
         <item itemvalue="애플리케이션.E_Map" />
         <item itemvalue="애플리케이션.D_Set" />
         <item itemvalue="애플리케이션.C_ListPractice" />
-        <item itemvalue="애플리케이션.B_List" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
