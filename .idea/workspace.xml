@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f876f0-5516-433d-be07-76f2fad8baaa" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/InventorySystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/LibraryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice01/Manageable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/entity/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/entity/Furniture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/repository/InMemoryItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter10/practice02/service/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter11/A_OOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter11/B_OOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter11/C_OOP_Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter11/D_Coupling_Cohesion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter01/A_Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter01/A_Hello.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "20250711__PmJavaStudy",
+    "git-widget-placeholder": "20250714__PmJavaStudy",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -83,17 +75,21 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.A_Abstract.executor": "Run",
     "애플리케이션.A_Constructor.executor": "Run",
+    "애플리케이션.A_Hello.executor": "Run",
     "애플리케이션.A_Method.executor": "Run",
     "애플리케이션.A_Modifier.executor": "Run",
     "애플리케이션.B_Encapsulation.executor": "Run",
     "애플리케이션.B_Inheritance.executor": "Run",
     "애플리케이션.B_List.executor": "Run",
     "애플리케이션.B_Method.executor": "Run",
+    "애플리케이션.B_OOP.executor": "Run",
     "애플리케이션.C_Inheritance.executor": "Run",
     "애플리케이션.C_ListPractice.executor": "Run",
     "애플리케이션.C_Method.executor": "Run",
+    "애플리케이션.C_OOP_Practice.executor": "Run",
     "애플리케이션.C_Object.executor": "Run",
     "애플리케이션.C_Practice.executor": "Run",
+    "애플리케이션.D_Coupling_Cohesion.executor": "Run",
     "애플리케이션.D_Final.executor": "Run",
     "애플리케이션.D_Method.executor": "Run",
     "애플리케이션.D_Object.executor": "Run",
@@ -127,13 +123,13 @@
     "애플리케이션.org.example.chapter07.orderApp.MainApp.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="C_ListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter10.C_ListPractice" />
+  <component name="RunManager" selected="애플리케이션.A_Hello">
+    <configuration name="A_Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter01.A_Hello" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter10.*" />
+          <option name="PATTERN" value="org.example.chapter01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D_Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter10.D_Set" />
+    <configuration name="B_OOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter11.B_OOP" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter10.*" />
+          <option name="PATTERN" value="org.example.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E_Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter10.E_Map" />
+    <configuration name="C_OOP_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter11.C_OOP_Practice" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter10.*" />
+          <option name="PATTERN" value="org.example.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventorySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter10.practice01.InventorySystem" />
+    <configuration name="D_Coupling_Cohesion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter11.D_Coupling_Cohesion" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter10.practice01.*" />
+          <option name="PATTERN" value="org.example.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.A_Hello" />
+        <item itemvalue="애플리케이션.D_Coupling_Cohesion" />
+        <item itemvalue="애플리케이션.C_OOP_Practice" />
+        <item itemvalue="애플리케이션.B_OOP" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.InventorySystem" />
-        <item itemvalue="애플리케이션.E_Map" />
-        <item itemvalue="애플리케이션.D_Set" />
-        <item itemvalue="애플리케이션.C_ListPractice" />
       </list>
     </recent_temporary>
   </component>
