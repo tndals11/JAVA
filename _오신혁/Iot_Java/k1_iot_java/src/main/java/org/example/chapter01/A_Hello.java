@@ -21,5 +21,17 @@ public class A_Hello {
     // - 실행 단축키(shift + f10)
     public static void main(String[] args) {
         System.out.println("Hello Java");
+
+        int a=26;
+        int b=91;
+        int g=0;
+        int c=a<b?a:b;
+        for(int i=1; i<c;i++){
+            if(a%i==0 && b%i==0)
+
+                g=i;
+        }
+        System.out.print(g);
     }
 }
+
