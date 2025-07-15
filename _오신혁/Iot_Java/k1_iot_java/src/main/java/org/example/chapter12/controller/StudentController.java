@@ -17,24 +17,24 @@ public class StudentController {
     }
 
     // 학생 추가(Create)
+    // StudentRequestDto에(db)에 값을 주입시킨다.
     public void addStudent(StudentRequestDto dto) {
         // 학생 추가 시 입력한 studentNumber의 학생이 존재하는 경우
         // : 기능 x + 메시지 출력
 
         StudentResponseDto studentResponseDto = getStudentById(dto.getStudentNumber());
-
         if (studentResponseDto != null) {
             System.out.println("해당 학번이 학생이 이미 존재합니다");
             return;
         }
-
-
         Student student = new Student(nextId++, dto.getName(), dto.getAge(), dto.getStudentNumber());
         studentList.add(student);
         System.out.println(dto.getName() + "학생이 추가되었습니다. 학번: " + dto.getStudentNumber());
     }
 
+
     // 학생 조회 (전체)
+    // StudentResponseDto을 이용해서 db에 저장된 값을 끌고온다
     public List<StudentResponseDto> getAllStudents() {
         List<StudentResponseDto> response = new ArrayList<>();
 
