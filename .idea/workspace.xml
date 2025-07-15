@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f876f0-5516-433d-be07-76f2fad8baaa" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/LibraryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/MVC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/dto/StudentRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/dto/StudentResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/studentManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/view/BookView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/view/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter13/A_Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter13/B_Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter13/C_Generic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/view/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter12/view/StudentView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "20250714__AmJavaStudy",
+    "git-widget-placeholder": "20250715__AmJavaStudy",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,14 +75,17 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.A_Abstract.executor": "Run",
     "애플리케이션.A_Constructor.executor": "Run",
+    "애플리케이션.A_Generic.executor": "Run",
     "애플리케이션.A_Hello.executor": "Run",
     "애플리케이션.A_Method.executor": "Run",
     "애플리케이션.A_Modifier.executor": "Run",
     "애플리케이션.B_Encapsulation.executor": "Run",
+    "애플리케이션.B_Generic.executor": "Run",
     "애플리케이션.B_Inheritance.executor": "Run",
     "애플리케이션.B_List.executor": "Run",
     "애플리케이션.B_Method.executor": "Run",
     "애플리케이션.B_OOP.executor": "Run",
+    "애플리케이션.C_Generic.executor": "Run",
     "애플리케이션.C_Inheritance.executor": "Run",
     "애플리케이션.C_ListPractice.executor": "Run",
     "애플리케이션.C_Method.executor": "Run",
@@ -128,10 +125,11 @@
     "애플리케이션.Q3.executor": "Run",
     "애플리케이션.Q4.executor": "Run",
     "애플리케이션.StudentManagementApp.executor": "Run",
-    "애플리케이션.org.example.chapter07.orderApp.MainApp.executor": "Run"
+    "애플리케이션.org.example.chapter07.orderApp.MainApp.executor": "Run",
+    "애플리케이션.studentManagement.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.LibraryManagement">
+  <component name="RunManager">
     <configuration name="A_Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chapter01.A_Hello" />
       <module name="org.example.k1_iot_java.main" />
