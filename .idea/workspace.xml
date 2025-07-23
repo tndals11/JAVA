@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f876f0-5516-433d-be07-76f2fad8baaa" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/D_MethodRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/F_Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/H_Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/I_Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/J_Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/K_Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/Z_Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/A_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/B_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/C_Collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/D_Array_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/E_Optional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/a_practice/Practice01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/a_practice/Practice02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/a_practice/Practice03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/b_signup/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/b_signup/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/b_signup/UserSignUpRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/c_board_app/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/c_board_app/dto/BoardRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/c_board_app/dto/BoardResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/c_board_app/entity/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/c_board_app/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/c_board_app/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/c_board_app/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter15/c_board_app/view/BoardView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/E_Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/_오신혁/Iot_Java/k1_iot_java/src/main/java/org/example/chapter14/E_Lambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +60,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,11 +90,19 @@
     "Gradle.k1_iot_java [:org.example.chapter14.H_Stream.main()].executor": "Run",
     "Gradle.k1_iot_java [:org.example.chapter14.J_Practice.main()].executor": "Run",
     "Gradle.k1_iot_java [:org.example.chapter14.K_Practice.main()].executor": "Run",
+    "Gradle.k1_iot_java [:org.example.chapter15.A_Sort.main()].executor": "Run",
+    "Gradle.k1_iot_java [:org.example.chapter15.B_Sort.main()].executor": "Run",
+    "Gradle.k1_iot_java [:org.example.chapter15.C_Collect.main()].executor": "Run",
+    "Gradle.k1_iot_java [:org.example.chapter15.E_Optional.main()].executor": "Run",
+    "Gradle.k1_iot_java [:org.example.chapter15.a_practice.Practice01.main()].executor": "Run",
+    "Gradle.k1_iot_java [:org.example.chapter15.a_practice.Practice02.main()].executor": "Debug",
+    "Gradle.k1_iot_java [:org.example.chapter15.a_practice.Practice03.main()].executor": "Run",
+    "Gradle.k1_iot_java [:org.example.chapter15.c_board_app.view.BoardView.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "20250722__JavaStudy",
+    "git-widget-placeholder": "20250723__JavaStudy",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -149,13 +169,13 @@
     "애플리케이션.studentManagement.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.K_Practice">
-    <configuration name="D_MethodRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter14.D_MethodRef" />
+  <component name="RunManager" selected="애플리케이션.BoardView">
+    <configuration name="BoardView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter15.c_board_app.view.BoardView" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter14.*" />
+          <option name="PATTERN" value="org.example.chapter15.c_board_app.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="F_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter14.F_Practice" />
+    <configuration name="E_Optional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter15.E_Optional" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter14.*" />
+          <option name="PATTERN" value="org.example.chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter14.H_Stream" />
+    <configuration name="Practice01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter15.a_practice.Practice01" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter14.*" />
+          <option name="PATTERN" value="org.example.chapter15.a_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="J_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter14.J_Practice" />
+    <configuration name="Practice02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter15.a_practice.Practice02" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter14.*" />
+          <option name="PATTERN" value="org.example.chapter15.a_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="K_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter14.K_Practice" />
+    <configuration name="Practice03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter15.a_practice.Practice03" />
       <module name="org.example.k1_iot_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter14.*" />
+          <option name="PATTERN" value="org.example.chapter15.a_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.K_Practice" />
-        <item itemvalue="애플리케이션.J_Practice" />
-        <item itemvalue="애플리케이션.H_Stream" />
-        <item itemvalue="애플리케이션.D_MethodRef" />
-        <item itemvalue="애플리케이션.F_Practice" />
+        <item itemvalue="애플리케이션.BoardView" />
+        <item itemvalue="애플리케이션.Practice03" />
+        <item itemvalue="애플리케이션.Practice02" />
+        <item itemvalue="애플리케이션.Practice01" />
+        <item itemvalue="애플리케이션.E_Optional" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +266,8 @@
       <workItem from="1752564402487" duration="3706000" />
       <workItem from="1753060164558" duration="22006000" />
       <workItem from="1753142773494" duration="19233000" />
+      <workItem from="1753229512096" duration="19987000" />
+      <workItem from="1753255365851" duration="5134000" />
     </task>
     <servers />
   </component>
